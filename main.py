@@ -38,8 +38,8 @@ torch.manual_seed(1)
 torch.cuda.manual_seed(1) 
 torch.cuda.manual_seed_all(1)
 
-item_cate_file = '/home/wangzhikai/recommendation_learning/dataset/amazon/books_item_cate.txt'
-train_file = '/home/wangzhikai/recommendation_learning/dataset/amazon/books_30_train.txt'
+item_cate_file = '/home/wangzhikai/recommendation_learning/dataset/amazon/electronics_item_cate.txt'
+train_file = '/home/wangzhikai/recommendation_learning/dataset/amazon/electronics_test.txt'
 item_cate = {}
 trainset = []
 current_user_group = -1
