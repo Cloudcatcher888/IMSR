@@ -13,6 +13,7 @@ import random
 
 from utils import Config
 
+# definition of capsule network
 class BaseCapNet(nn.Module):
     def __init__(self,K,dynamic):
         super(BaseCapNet, self).__init__()
