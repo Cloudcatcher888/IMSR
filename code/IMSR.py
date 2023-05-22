@@ -409,8 +409,7 @@ for idx in range(1, task_num):
                     for K_id in range(Ks[j]):
                         memory_pool[user][K_id] = caps[j,K_id].detach()
 
-        #evaluation
-        #testing on the subsequent items based on the memoried capsules
+        #evaluation on the subsequent items based on the memoried capsules
         total_test_loss = []
         testdataloader = DataLoader(Traintask(trainset_split,idx+1),shuffle=False,batch_size=batchsize)
         for i, (userid,histseq,tgtseq,histlen,tgtlen,histseq_mask,tgtseq_mask) in enumerate(testdataloader):
