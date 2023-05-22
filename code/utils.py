@@ -11,6 +11,8 @@ from sklearn.metrics import roc_auc_score,log_loss
 import os
 import random
 
+
+# configration
 class Config():
     min_timestamp -= 100
 	max_timestamp += 100
